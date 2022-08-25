@@ -14,7 +14,7 @@ dim=(width,height)
 #format of the mp4 file
 f=cv2.VideoWriter_fourcc(*"MPEG")
 #location of the file  and name  and dimensions
-output=cv2.VideoWriter("test.avi",f,30.0,dim)
+output=cv2.VideoWriter("test.avi",f,23,dim)
 #Timings ie the start time and end time
 now_start_time=time.time()
 #duration , we add plus 4 seconds so that the code gets compiled
