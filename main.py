@@ -13,7 +13,7 @@ height=GetSystemMetrics(1)
 dim=(width,height)
 #format of the mp4 file
 f=cv2.VideoWriter_fourcc(*"MPEG")
-#location of the file  and name  and dimensions
+#location of the file  and name  and dimension
 output=cv2.VideoWriter("test.avi",f,23,dim)
 #Timings ie the start time and end time
 now_start_time=time.time()
